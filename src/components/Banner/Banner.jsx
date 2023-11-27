@@ -6,8 +6,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import boy from '../../images/boy.png';
 import './Banner.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 const Banner = () => {
+
+
   return (
     <>
       <Container className="banner-container">
@@ -21,14 +24,16 @@ const Banner = () => {
               Provides you with the latest online learning system and material that help your knowledge growing
             </p>
 
-            <div className="search-box">
-              <input type="text" className="form-control" placeholder="Search..." />
-              <div className="input-group-append">
-                <button className="btn btn-primary" type="button">
-                  Search
-                </button>
-              </div>
+            <div className="search mt-5">
+              <i className="fa fa-search" />
+              <input
+                type="text"
+                className="form-control"
+                placeholder="What to learn"
+              />
+              <button className="btn btn-primary">Search</button>
             </div>
+
           </Col>
           <Col lg={6} md={12}>
             <img src={boy} className="img-fluid" alt="Boy" />
