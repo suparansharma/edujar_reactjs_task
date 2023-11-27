@@ -1,0 +1,63 @@
+/* 
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-btn {
+  margin-right: 30px;
+  border: 1px solid #ffffff;
+  padding: 10px 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.navbar-btn:first-child {
+  margin-right: 30px;
+}
+
+.navbar-btn:last-child {
+  margin-right: 0;
+} */
+
+
+
+/* Navbar.css */
+
+.navbar {
+  color: white;
+}
+
+.navbar a {
+  color: white !important; /* !important is used to override Bootstrap styles */
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+
+
+.navbar-button {
+  margin-right: 30px;
+  border: 1px solid #ffffff !important;
+  padding: 10px 30px !important;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: transparent;
+  color: #ffffff;
+}
