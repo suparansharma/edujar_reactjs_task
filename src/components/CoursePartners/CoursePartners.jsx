@@ -1,19 +1,79 @@
 import React from 'react';
-import { Form } from 'react-bootstrap';
+import { Container, Carousel } from 'react-bootstrap';
 import './CoursePartners.css';
-
+import loom from '../../images/loom.png';
+import gitlab from '../../images/gitlab.svg';
+import hubspot from '../../images/hubspot.png';
+import livechat from '../../images/livechat.png';
+// livechat  
 const CoursePartners = () => {
+    const partnersData = [
+        { id: 1, name: 'Loom', imageUrl: loom },
+        { id: 2, name: 'Gitlab', imageUrl: gitlab },
+        { id: 3, name: 'Hubspot', imageUrl: hubspot },
+        { id: 4, name: 'Partner 1', imageUrl: livechat },
+
+        { id: 5, name: 'Loom', imageUrl: loom },
+        { id: 6, name: 'Gitlab', imageUrl: gitlab },
+        { id: 7, name: 'Hubspot', imageUrl: hubspot },
+        { id: 8, name: 'Partner 1', imageUrl: livechat },
+
+        { id: 9, name: 'Loom', imageUrl: loom },
+        { id: 10, name: 'Gitlab', imageUrl: gitlab },
+        { id: 11, name: 'Hubspot', imageUrl: hubspot },
+        { id: 12, name: 'Partner 1', imageUrl: livechat },
+
+    ];
+
+    const renderPartnerItems = () => {
+        // Assuming each partner occupies two columns
+        const itemsPerSlide = 4;
+        const slides = [];
+        for (let i = 0; i < partnersData.length; i += itemsPerSlide) {
+            const slidePartners = partnersData.slice(i, i + itemsPerSlide);
+            const slideItems = slidePartners.map(partner => (
+                <div key={partner.id} className="partner-item">
+                    <div class="row">
+                    <div className="col-md-6 col-lg-7 mb-3">
+                            <img
+                                className="d-block w-150 img-fluid"
+                                src={partner.imageUrl}
+                                alt={`Slide ${i + 1}`}
+                                style={{ height: '100px', width: "300px" }}
+                                // style={{ height: 'auto', maxWidth: '100%' }}
+                            />
+                        </div>
+                        <div className="col-md-6 col-lg-5 d-flex align-items-center">
+                            <p style={{ color: 'white', fontSize: '28px', fontWeight: 'bold', margin: 0 }}>
+                                {partner.name}
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            ));
+            slides.push(
+                <Carousel.Item key={i}>
+                    <div className="d-flex">{slideItems}</div>
+                </Carousel.Item>
+            );
+        }
+        return slides;
+    };
+
     return (
-        <>
+        <Container>
             <div className="form-group">
                 <fieldset className="the-fieldset">
-                    <legend style={{ color: 'white' }} className="the-legend">Description</legend>
-                    {/* <textarea className="form-control" rows={3} defaultValue={""} /> */}
+                    <legend style={{ color: 'white' }} className="the-legend">
+                        Our Course Partners
+                    </legend>
+                    <Carousel id="carouselExampleControls">{renderPartnerItems()}</Carousel>
                 </fieldset>
             </div>
-
-
-        </>
+        </Container>
     );
 };
 

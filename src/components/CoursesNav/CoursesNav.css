@@ -1,0 +1,41 @@
+h2 {
+  font-weight: bold;
+  font-size: 45px !important;
+  color: #d11212 !important;
+}
+
+h2 span {
+  /* You can add additional styles for the span if needed */
+  color: white;
+}
+
+.coursesnav {
+  margin-top: 60px !important;
+}
+
+.custom-nav-row {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+  border-top-left-radius: 22px; /* Adjust the radius for the left side */
+  border-bottom-left-radius: 22px; /* Adjust the radius for the left side */
+  border-top-right-radius: 22px; /* Adjust the radius for the right side */
+  border-bottom-right-radius: 22px;
+  height: 54px;
+}
+
+.custom-nav-col {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-nav-col:hover {
+  background: blue;
+  border-top-left-radius: 22px; /* Adjust the radius for the left side */
+  border-bottom-left-radius: 22px; /* Adjust the radius for the left side */
+  border-top-right-radius: 22px; /* Adjust the radius for the right side */
+  border-bottom-right-radius: 22px; /* Adjust the radius for the right side */
+}
