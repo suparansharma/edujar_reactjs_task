@@ -5,10 +5,7 @@ import Avtr from '../../images/avtr.jpg';
 
 const Card = ({ data }) => {
   const { imageUrl, title, text, star } = data;
-  const imageStyle = {
-    height: '200px',
-    objectFit: 'cover',
-  };
+
 
   const renderStars = () => {
     const stars = [];
