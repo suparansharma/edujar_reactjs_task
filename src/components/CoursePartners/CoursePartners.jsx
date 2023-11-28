@@ -34,29 +34,26 @@ const CoursePartners = () => {
             const slideItems = slidePartners.map(partner => (
                 <div key={partner.id} className="partner-item">
                     <div class="row">
-                    <div className="col-md-6 col-lg-7 mb-3">
+                        <div className="col-md-6 col-lg-7 mb-3">
                             <img
                                 className="d-block w-150 img-fluid"
                                 src={partner.imageUrl}
                                 alt={`Slide ${i + 1}`}
-                                style={{ height: '100px', width: "300px" }}
-                                // style={{ height: 'auto', maxWidth: '100%' }}
+                                style={{ height: '100px', width: "100px" }}
+                            // style={{ height: 'auto', maxWidth: '100%' }}
                             />
                         </div>
                         <div className="col-md-6 col-lg-5 d-flex align-items-center">
-                            <p style={{ color: 'white', fontSize: '28px', fontWeight: 'bold', margin: 0 }}>
+                            <p style={{ color: 'white', fontSize: '18px', fontWeight: 'bold', margin: 0 }}>
                                 {partner.name}
                             </p>
                         </div>
                     </div>
-
-
-
                 </div>
             ));
             slides.push(
                 <Carousel.Item key={i}>
-                    <div className="d-flex">{slideItems}</div>
+                    <div className="d-flex justify-content-between w-full px-5">{slideItems}</div>
                 </Carousel.Item>
             );
         }

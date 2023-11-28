@@ -1,0 +1,60 @@
+.footer {
+    /* background: #152F4F; */
+    background: linear-gradient(to right,#15264f, #322cc3e6);
+    
+    color: white;
+  }
+  
+  .footer .links ul {
+    list-style-type: none;
+  }
+  
+  .footer .links li a {
+    color: white;
+    transition: color .2s;
+  }
+  
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180CB;
+  }
+  
+  .footer .about-company i {
+    font-size: 25px;
+  }
+  
+  .footer .about-company a {
+    color: white;
+    transition: color .2s;
+  }
+  
+  .footer .about-company a:hover {
+    color: #4180CB;
+  }
+  
+  .footer .location i {
+    font-size: 18px;
+  }
+  
+/* YourComponent.css */
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fa-linkedin-square {
+    color: black;
+    font-size: 20px;
+  }
+  
+  .footer .copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px; /* Add a bottom margin for spacing */
+  }
+  
+  
