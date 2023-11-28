@@ -7,6 +7,7 @@ import Courses from './components/Courses/Courses';
 import Category from './components/Category/Category';
 import DifferenceCon from './components/DifferenceCon/DifferenceCon';
 import Footer from './components/Footer/Footer';
+import Testimonials from './components/Testimonials/Testimonials.jsx';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
    <Courses/>
    <Category/>
    <DifferenceCon/>
+   <Testimonials/>
    <Footer/>
    </>
   );

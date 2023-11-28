@@ -1,5 +1,3 @@
-// DifferenceCon.jsx
-
 import React from 'react';
 import './DifferenceCon.css';
 import CircularIcon from '../CircularIcon/CircularIcon';
@@ -22,10 +20,10 @@ const DifferenceCon = () => {
             What is our <br />
             <span>Difference</span>
           </h3>
-          <p className='answer mt-4'>
+          <p className='answer mt-5'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iusto blanditiis ad quisquam esse quasi quas, nulla, doloribus maxime commodi praesentium odio, provident ipsum animi tempore.
           </p>
-          <p className='answer mt-3'>
+          <p className='answer mt-5'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, tempore dolores doloribus et iure reiciendis.
           </p>
 
@@ -35,7 +33,7 @@ const DifferenceCon = () => {
         </div>
         <div className="col-lg-5 col-md-12 mb-4 mb-lg-0">
           <div className="middle-box">
-            <img src={grd} alt="" className="img-fluid" />
+            <img src={grd} alt="" className="img-responsive " />
           </div>
         </div>
 
