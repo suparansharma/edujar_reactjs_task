@@ -1,0 +1,77 @@
+.middle-box {
+  /* display: flex;
+      align-items: center;
+      justify-content: center; */
+  background: rgb(88 85 85 / 60%);
+  margin: 20px 0;
+  /* padding: 30%; */
+  width: 400px;
+  min-height: 650px;
+  /* border: 2px #ccc solid; */
+  color: #fff;
+  border-top-left-radius: 200px; /* Adjust the radius for the left side */
+  border-bottom-left-radius: 200px; /* Adjust the radius for the left side */
+  border-top-right-radius: 200px; /* Adjust the radius for the right side */
+  border-bottom-right-radius: 200px;
+  margin-left: 95px;
+}
+
+.question {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.question span {
+  /* font-size: 55px; */
+  font-weight: bold;
+  color: red;
+}
+
+.answer {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+}
+
+/* styles.css */
+
+.circular-icon {
+  background: rgb(12 135 197);
+  border-radius: 50%;
+  width: 80px; /* Adjust the width and height as needed */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circular-icon i {
+  font-size: 2rem;
+  color: white;
+}
+
+.number {
+  font-size: 40px !important;
+  color: white !important;
+}
+
+.title {
+    color: rgba(255, 255, 255, 0.7); /* Adjust the alpha value as needed for the desired opacity */
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+  .learn-btn {
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    background-color: rgb(12 135 197);
+    /* background-color: blue; */
+    padding: 6px 26px; 
+    border-radius: 22px;
+    height: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

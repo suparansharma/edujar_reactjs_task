@@ -51,13 +51,13 @@ const Courses = () => {
   ];
   return (
     <>
-      <div className="container mt-4">
+      <div className="container mt-5">
         <div className="row">
           {cardData.map((card, index) => (
             <Card key={index} data={card} />
           ))}
         </div>
-        <div className="container text-center">
+        <div className="container text-center mt-4">
           <p className='explore-btn'>Explore all Courses</p>
         </div>
 

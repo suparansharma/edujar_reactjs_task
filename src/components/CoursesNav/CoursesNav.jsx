@@ -5,7 +5,7 @@ import './CoursesNav.css';
 const CoursesNav = () => {
     return (
         <Container>
-            <div className="row coursesnav">
+            <div className="row coursesnav mb-4">
                 <div className="col-md-4">
                     <h2> <span>Popular</span> Courses</h2>
                 </div>
