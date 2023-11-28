@@ -3,7 +3,7 @@
 import React from 'react';
 import './DifferenceCon.css';
 import CircularIcon from '../CircularIcon/CircularIcon';
-import graduate from '../../images/graduate.jpg'
+import grd from '../../images/grd.png'
 
 const DifferenceCon = () => {
   const data = [
@@ -30,14 +30,14 @@ const DifferenceCon = () => {
           </p>
 
           <div className="mt-4">
-          <p className='learn-btn'>Learn more</p>
-        </div>
+            <p className='learn-btn'>Learn more</p>
+          </div>
         </div>
         <div className="col-lg-5 col-md-12 mb-4 mb-lg-0">
-  <div className="middle-box">
-    <img src={graduate} alt="Your Image Alt Text" className="img-fluid" />
-  </div>
-</div>
+          <div className="middle-box">
+            <img src={grd} alt="" className="img-fluid" />
+          </div>
+        </div>
 
         <div className="col-lg-3 col-md-12">
           {data.map((item, index) => (
