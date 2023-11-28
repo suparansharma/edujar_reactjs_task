@@ -5,7 +5,7 @@ h2 {
 }
 
 h2 span {
-  /* You can add additional styles for the span if needed */
+  
   color: white;
 }
 
@@ -17,9 +17,9 @@ h2 span {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   padding: 10px;
-  border-top-left-radius: 22px; /* Adjust the radius for the left side */
-  border-bottom-left-radius: 22px; /* Adjust the radius for the left side */
-  border-top-right-radius: 22px; /* Adjust the radius for the right side */
+  border-top-left-radius: 22px; 
+  border-bottom-left-radius: 22px; 
+  border-top-right-radius: 22px;
   border-bottom-right-radius: 22px;
   height: 54px;
 }

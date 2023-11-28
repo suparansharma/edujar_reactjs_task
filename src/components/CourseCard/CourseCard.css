@@ -1,0 +1,30 @@
+/* Card.css */
+.custom-card-body {
+    background: linear-gradient(to right, #102af2, #2c3ec3e6);
+    color: white !important;
+
+}
+
+
+
+.custom-title {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 7px 0px; /* Adjust the padding as needed */
+    
+    border-top-left-radius: 22px; 
+    border-bottom-left-radius: 22px; 
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    height: 40px;
+  }
+
+
+  .description {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .custom_col_7{
+    padding: 0px !important;
+    border-right: 1px solid;
+  }
