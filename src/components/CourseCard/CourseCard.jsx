@@ -23,7 +23,11 @@ const Card = ({ data }) => {
   return (
     <div className="col-md-4 mb-4">
       <div className="card custom-card-body">
-        <img className="card-img-top" src={imageUrl} alt="Card image cap" style={imageStyle} />
+        {/* <img className="card-img-top imageStyle" src={imageUrl} alt="Card image cap"  />
+        <img className="card-img-top imageStyle" src={imageUrl} alt="Card image cap" /> */}
+        <img className="card-img-top imageStyle" src={imageUrl} alt="" />
+
+
         <div className="card-body">
           <div className="row">
             <div className="col d-flex align-items-center">
