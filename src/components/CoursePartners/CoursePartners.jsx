@@ -11,17 +11,17 @@ const CoursePartners = () => {
         { id: 1, name: 'Loom', imageUrl: loom },
         { id: 2, name: 'Gitlab', imageUrl: gitlab },
         { id: 3, name: 'Hubspot', imageUrl: hubspot },
-        { id: 4, name: 'Partner 1', imageUrl: livechat },
+        { id: 4, name: 'Partner', imageUrl: livechat },
 
         { id: 5, name: 'Loom', imageUrl: loom },
         { id: 6, name: 'Gitlab', imageUrl: gitlab },
         { id: 7, name: 'Hubspot', imageUrl: hubspot },
-        { id: 8, name: 'Partner 1', imageUrl: livechat },
+        { id: 8, name: 'Partner', imageUrl: livechat },
 
         { id: 9, name: 'Loom', imageUrl: loom },
         { id: 10, name: 'Gitlab', imageUrl: gitlab },
         { id: 11, name: 'Hubspot', imageUrl: hubspot },
-        { id: 12, name: 'Partner 1', imageUrl: livechat },
+        { id: 12, name: 'Partner', imageUrl: livechat },
 
     ];
 

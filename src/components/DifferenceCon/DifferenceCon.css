@@ -38,8 +38,8 @@
 .circular-icon {
   background: rgb(12 135 197);
   border-radius: 50%;
-  width: 80px; /* Adjust the width and height as needed */
-  height: 80px;
+  width: 70px; /* Adjust the width and height as needed */
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,13 +51,13 @@
 }
 
 .number {
-  font-size: 40px !important;
+  font-size: 30px !important;
   color: white !important;
 }
 
 .title {
     color: rgba(255, 255, 255, 0.7); /* Adjust the alpha value as needed for the desired opacity */
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
   }
 
@@ -84,6 +84,14 @@
 }
 
 
+.big-star {
+  font-size: 60px; 
+  transform: rotate(20deg); 
+margin-left: 50px;
+}
+
+
+
 
   /* Small devices (landscape phones, 576px and up) */
 
@@ -99,15 +107,23 @@
       min-height: 500px;
       
     }
+
+    .big-star{
+      display: none;
+    }
   }
   
   @media (min-width: 576px) and (max-width: 767.98px) {
-  
+    .big-star{
+      display: none;
+    }
   }
   
   /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) and (max-width: 991.98px) {
-   
+    .big-star{
+      display: none;
+    }
   }
   
   /* Large devices (desktops, 992px and up) */

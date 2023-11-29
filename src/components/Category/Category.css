@@ -30,3 +30,8 @@
 .first-icon {
   padding: 0px !important;
 }
+
+
+.arrow-icon-rt{
+  transform: rotate(40deg); 
+}

@@ -40,6 +40,11 @@
   font-weight: bold;
 }
 
+.getting-start-btn{
+  background-color: rgb(12 135 197) !important;
+  /* background-color: ; */
+}
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 575.98px) {

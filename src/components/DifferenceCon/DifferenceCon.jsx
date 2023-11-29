@@ -38,6 +38,9 @@ const DifferenceCon = () => {
         </div>
 
         <div className="col-lg-3 col-md-12">
+
+        <i className='fa fa-star text-warning big-star ' />
+
           {data.map((item, index) => (
             <CircularIcon key={index} {...item} />
           ))}

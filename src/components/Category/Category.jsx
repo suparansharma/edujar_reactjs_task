@@ -34,8 +34,8 @@ const Category = () => {
                                         <p className='bold-text'>{category.name}</p>
                                     </div>
                                     <div className="col-3 d-flex align-items-center justify-content-center ">
-                                        <div className="icon-wrapper" style={{ backgroundColor: 'rgb(12 135 197)', padding: '4px' }}>
-                                            <i className={`${category.icon2} play-icon`} style={{ fontSize: '1.7rem', color: 'white' }} />
+                                        <div className="icon-wrapper " style={{ backgroundColor: 'rgb(12 135 197)', padding: '6px' }}>
+                                            <i className={`${category.icon2} play-icon arrow-icon-rt`} style={{ fontSize: '1.8rem', color: 'white' }} />
                                         </div>
                                     </div>
 

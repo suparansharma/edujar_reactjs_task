@@ -34,7 +34,7 @@ function CollapsibleExample() {
           </Nav>
           <Nav>
             <Nav.Link className='navbar-button' href="#deets">Login</Nav.Link>
-            <Nav.Link className='navbar-button' eventKey={2} href="#memes">
+            <Nav.Link className='navbar-button getting-start-btn' eventKey={2} href="#memes">
               Get Started
             </Nav.Link>
           </Nav>
