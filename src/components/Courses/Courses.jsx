@@ -15,7 +15,7 @@ const Courses = () => {
   const cardData = [
     {
       imageUrl: card1,
-      title: 'Card 1',
+      title: 'Design',
       name:"Mr Amuk",
       deg:"Pythone Developer",
       profile: Avtr,
@@ -25,7 +25,7 @@ const Courses = () => {
     },
     {
       imageUrl: card5,
-      title: 'Card 1',
+      title: 'Design',
       name:"Mr Tomuk",
       deg:"Jango Developer",
       profile: Avtr1,
@@ -35,7 +35,7 @@ const Courses = () => {
     },
     {
       imageUrl: card3,
-      title: 'Card 1',
+      title: 'Design',
       name:"Mr Somuk",
       deg:"Pythone Developer",
       profile: Avtr3,
@@ -45,7 +45,7 @@ const Courses = () => {
     },
     {
       imageUrl: card4,
-      title: 'Card 1',
+      title: 'Design',
       name:"Mr Siir",
       deg:"Html Developer",
       profile: Avtr4,
@@ -55,7 +55,7 @@ const Courses = () => {
     },
     {
       imageUrl: card3,
-      title: 'Card 1',
+      title: 'Design',
       name:"Mr Amuk",
       deg:"Css Developer",
       profile: Avtr,
@@ -66,7 +66,7 @@ const Courses = () => {
 
     {
       imageUrl: card1,
-      title: 'Card 1',
+      title: 'Design',
       name:"Mr Amuk",
       deg:"Pythone Developer",
       profile: Avtr5,

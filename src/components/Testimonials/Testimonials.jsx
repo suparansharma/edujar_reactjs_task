@@ -138,7 +138,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="col-md-5 testers">
+        <div className="col-md-5 testers mb-5">
           <div className=''>
             <div className="row">
               <div className="col-6 col-md-8">
