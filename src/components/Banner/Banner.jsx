@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import boy from '../../images/boy.png';
+import banner from '../../images/banner.png';
 import './Banner.css';
 import 'font-awesome/css/font-awesome.min.css';
 
@@ -28,7 +29,7 @@ const Banner = () => {
               <i className="fa fa-search" />
               <input
                 type="text"
-                className="form-control"
+                className="form-control search-box"
                 placeholder="What to learn"
               />
               <button className="btn btn-primary">Search</button>
@@ -36,7 +37,8 @@ const Banner = () => {
 
           </Col>
           <Col lg={6} md={12}>
-            <img src={boy} className="img-fluid" alt="Boy" />
+            <img src={banner} className="img-fluid banner-image" alt="Boy" />
+            {/* <img src={boy} className="img-fluid" alt="Boy" /> */}
           </Col>
         </Row>
       </Container>

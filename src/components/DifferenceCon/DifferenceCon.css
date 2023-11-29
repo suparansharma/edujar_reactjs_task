@@ -3,7 +3,7 @@
       align-items: center;
       justify-content: center; */
   background: rgb(88 85 85 / 60%);
-  margin: 20px 0;
+  /* margin: 20px 0; */
   /* padding: 30%; */
   width: 400px;
   min-height: 500px;
@@ -25,7 +25,7 @@
 .question span {
   /* font-size: 55px; */
   font-weight: bold;
-  color: red;
+  color: rgb(12 135 197);
 }
 
 .answer {
@@ -82,5 +82,59 @@
   height: 550px;
   width: auto; /* This allows the image to scale proportionally */
 }
+
+
+
+  /* Small devices (landscape phones, 576px and up) */
+
+  @media (max-width: 575.98px) {
+
+    .middle-box {
+      /* display: flex;
+          align-items: center;
+          justify-content: center; */
+      background: rgb(88 85 85 / 60%);
+      margin: 20px 0;
+      width: 350px;
+      min-height: 500px;
+      
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+  
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+   
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1400px) {
+    .middle-box {
+      /* display: flex;
+          align-items: center;
+          justify-content: center; */
+      background: rgb(88 85 85 / 60%);
+      margin: 20px 0;
+      /* padding: 30%; */
+      width: 400px;
+      min-height: 500px;
+      /* border: 2px #ccc solid; */
+      color: #fff;
+      border-top-left-radius: 200px; /* Adjust the radius for the left side */
+      border-bottom-left-radius: 200px; /* Adjust the radius for the left side */
+      border-top-right-radius: 200px; /* Adjust the radius for the right side */
+      border-bottom-right-radius: 200px;
+      margin-left: 95px;
+    }
+    
+  }
 
   

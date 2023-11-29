@@ -1,60 +1,130 @@
 .footer {
-    /* background: #152F4F; */
-    background: linear-gradient(to right,#15264f, #322cc3e6);
-    
-    color: white;
-  }
-  
-  .footer .links ul {
-    list-style-type: none;
-  }
-  
-  .footer .links li a {
-    color: white;
-    transition: color .2s;
-  }
-  
-  .footer .links li a:hover {
-    text-decoration: none;
-    color: #4180CB;
-  }
-  
-  .footer .about-company i {
-    font-size: 25px;
-  }
-  
-  .footer .about-company a {
-    color: white;
-    transition: color .2s;
-  }
-  
-  .footer .about-company a:hover {
-    color: #4180CB;
-  }
-  
-  .footer .location i {
-    font-size: 18px;
-  }
-  
-/* YourComponent.css */
+  /* background: #152F4F; */
+  background: linear-gradient(to right, #15264f, #322cc3e6);
+
+  color: white;
+}
+
+.footer .links ul {
+  list-style-type: none;
+}
+
+.footer .links li a {
+  color: white;
+  transition: color 0.2s;
+}
+
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #4180cb;
+}
+
+.footer .about-company i {
+  font-size: 25px;
+}
+
+.footer .about-company a {
+  color: white;
+  transition: color 0.2s;
+}
+
+.footer .about-company a:hover {
+  color: #4180cb;
+}
+
+.footer .location i {
+  font-size: 18px;
+}
+
 .circle {
-    width: 30px;
-    height: 30px;
-    background-color: #f8f8f8;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(248, 248, 248, 0.7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.fa-linkedin-square {
+  color: white;
+  font-size: 20px;
+}
+
+.footer .copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+
+.location {
+  height: 24px !important;
+}
+
+.icon-font {
+  color: black;
+  font-size: 20px;
+}
+
+.footer-text {
+  font-size: 24px;
+}
+
+.footer_heading {
+  font-size: 40px;
+}
+
+.logoIcon {
+  background-color: rgb(12 135 197);
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  /* font-size: 24px; */
+}
+
+
+.children-text{
+  font-size: 20px;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .copyright {
+    margin-top: 30px;
   }
-  
-  .fa-linkedin-square {
-    color: black;
-    font-size: 20px;
+
+  .footer-text {
+    font-size: 15px;
   }
-  
-  .footer .copyright {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: 20px; /* Add a bottom margin for spacing */
+
+  .contact {
+    margin-top: 20px;
   }
-  
-  
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .copyright {
+    margin-top: 30px;
+  }
+
+  .footer-text {
+    font-size: 15px;
+  }
+
+  .contact {
+    margin-top: 20px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}

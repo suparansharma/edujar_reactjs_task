@@ -2,14 +2,14 @@ import React from 'react';
 import './Category.css';
 
 const categories = [
-    { name: 'Development', icon1: 'fa fa-play-circle', icon2: 'fa fa-play-circle' },
-    { name: 'Development', icon1: 'fa fa-play-circle', icon2: 'fa fa-play-circle' },
-    { name: 'Development', icon1: 'fa fa-play-circle', icon2: 'fa fa-play-circle' },
-    { name: 'Development', icon1: 'fa fa-play-circle', icon2: 'fa fa-play-circle' },
-    { name: 'Development', icon1: 'fa fa-play-circle', icon2: 'fa fa-play-circle' },
-    { name: 'Development', icon1: 'fa fa-play-circle', icon2: 'fa fa-play-circle' },
-    { name: 'Development', icon1: 'fa fa-play-circle', icon2: 'fa fa-play-circle' },
-    { name: 'Development', icon1: 'fa fa-play-circle', icon2: 'fa fa-play-circle' },
+    { name: 'Development', icon1: 'fa fa-play-circle', icon2: 'fa  fa-arrow-up' },
+    { name: 'Development', icon1: 'fa fa-wrench', icon2: 'fa f fa-arrow-up' },
+    { name: 'Photography', icon1: 'fa fa-camera', icon2: 'fa  fa-arrow-up' },
+    { name: 'Music', icon1: 'fa fa-music', icon2: 'fa fa-arrow-up' },
+    { name: 'Database', icon1: 'fa fa-database', icon2: 'fa fa-arrow-up' },
+    { name: 'Business', icon1: 'fa fa-briefcase', icon2: 'fa fa-arrow-up' },
+    { name: 'Marketing', icon1: 'fa fa fa-bullhorn', icon2: 'fa fa-arrow-up' },
+    { name: 'Development', icon1: 'fa fa-play-circle', icon2: 'fa fa-arrow-up' },
 
     // Add more categories as needed
 ];
@@ -34,8 +34,8 @@ const Category = () => {
                                         <p className='bold-text'>{category.name}</p>
                                     </div>
                                     <div className="col-3 d-flex align-items-center justify-content-center ">
-                                        <div className="icon-wrapper" style={{ backgroundColor: 'red', padding: '4px' }}>
-                                            <i className={`${category.icon2} play-icon`} style={{ fontSize: '3rem', color: 'white' }} />
+                                        <div className="icon-wrapper" style={{ backgroundColor: 'rgb(12 135 197)', padding: '4px' }}>
+                                            <i className={`${category.icon2} play-icon`} style={{ fontSize: '1.7rem', color: 'white' }} />
                                         </div>
                                     </div>
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import 'font-awesome/css/font-awesome.min.css';
 import './CourseCard.css';
-import Avtr from '../../images/avtr.jpg';
+
 
 const Card = ({ data }) => {
-  const { imageUrl, title, text, star } = data;
+  const { imageUrl, title, text, star,profile,name,deg } = data;
 
 
   const renderStars = () => {
@@ -20,8 +20,7 @@ const Card = ({ data }) => {
   return (
     <div className="col-md-4 mb-4">
       <div className="card custom-card-body">
-        {/* <img className="card-img-top imageStyle" src={imageUrl} alt="Card image cap"  />
-        <img className="card-img-top imageStyle" src={imageUrl} alt="Card image cap" /> */}
+      
         <img className="card-img-top imageStyle" src={imageUrl} alt="" />
 
 
@@ -50,7 +49,7 @@ const Card = ({ data }) => {
               <div className="row">
                 <div className="col-4 m-0">
                   <img
-                    src={Avtr}
+                    src={profile}
                     alt="Avatar"
                     className="img-fluid rounded-circle"
                     style={{ borderRadius: '50%', height: '50px' }}
@@ -58,10 +57,10 @@ const Card = ({ data }) => {
                 </div>
                 <div className="col-7 custom_col_7">
                   <h5 className="mb-0" style={{ fontSize: '16px' }}>
-                    Adam Smith
+                   {name}
                   </h5>
                   <p className="mb-0" style={{ fontSize: '14px' }}>
-                    Python Developer
+                    {deg}
                   </p>
                 </div>
               </div>

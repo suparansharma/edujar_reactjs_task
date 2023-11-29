@@ -13,19 +13,19 @@
 .the-legend::after {
   content: "";
   display: inline-block;
-  width: 10px; /* Adjust the size of the circle */
-  height: 10px; /* Adjust the size of the circle */
-  border-radius: 50%; /* Make it a circle */
+  width: 10px; 
+  height: 10px;
+  border-radius: 50%; 
   background-color: white;
-  margin: 0 2px; /* Adjust the spacing between the text and circles */
+  margin: 0 2px; 
 }
 
 .the-legend::before {
-  margin-right: 4px; /* Adjust the spacing for the first character */
+  margin-right: 4px; 
 }
 
 .the-legend::after {
-  margin-left: 4px; /* Adjust the spacing for the last character */
+  margin-left: 4px;
 }
 
 .the-fieldset {
@@ -40,4 +40,80 @@ fieldset.the-fieldset legend {
 
 .carousel-indicators{
   display: none!important;
+}
+
+
+.carousel-image{
+  width: 100px;
+  height: 100px;
+}
+
+
+.carousel-text{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+@media (max-width: 575.98px) {
+  .carousel-image{
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  .carousel-text{
+
+    display: none;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 600px) and (max-width: 991.98px) {
+  .carousel-image{
+    width: 60px;
+    height: 60px;
+  }
+  
+  
+  .carousel-text{
+
+    display: none;
+  }
+
+
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+  .the-fieldset{
+    margin-top: -21px;
+  }
+  .search-box{
+    margin-top: 178px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+
+
+  .the-fieldset{
+    margin-top: -21px;
+  }
+
+  .search-box{
+    margin-top: 178px;
+  }
+}
+
+
+@media (min-width: 2000px) {
+  
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Avtr from '../../images/avtr.jpg';
+import Avtr2 from '../../images/avtr2.png';
 import photo1 from '../../images/photo1.png';
 import photo2 from '../../images/photo2.png';
 import photo3 from '../../images/photo3.png';
@@ -26,7 +27,7 @@ const Testimonials = () => {
       title: 'Dog',
       content: 'A dog is known as "man\'s best friend." They come in various breeds and loyal companions, often A dog is known as "man\'s best friend." They come in various breeds and loyal companions, often and loyal companions, often ',
       name: 'Mr Tomuk',
-      imgurl: Avtr,
+      imgurl: Avtr2,
       work: 'Jango Developer',
       start: 3
 
@@ -137,7 +138,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="col-md-5">
+        <div className="col-md-5 testers">
           <div className=''>
             <div className="row">
               <div className="col-6 col-md-8">

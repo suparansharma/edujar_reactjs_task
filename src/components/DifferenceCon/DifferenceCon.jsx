@@ -5,10 +5,10 @@ import grd from '../../images/grd.png'
 
 const DifferenceCon = () => {
   const data = [
-    { iconClass: 'fa fa-play-circle play-icon', number: 300, title: 'Instructor' },
-    { iconClass: 'fa fa-star', number: 400, title: 'Another Title' },
-    { iconClass: 'fa fa-star', number: 400, title: 'Another Title' },
-    { iconClass: 'fa fa-star', number: 400, title: 'Another Title' },
+    { iconClass: 'fa fa-graduation-cap', number: "300", title: 'Instructor' },
+    { iconClass: 'fa fa-users', number: "2,000+", title: 'Students' },
+    { iconClass: 'fa fa-video-camera', number: "10,000+", title: 'Video' },
+    { iconClass: 'fa fa-users', number: "100000", title: 'Users' },
     // Add more data items as needed
   ];
 

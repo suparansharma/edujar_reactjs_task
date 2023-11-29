@@ -1,23 +1,10 @@
-/* .explore-btn{
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 7px 0px;
-    
-    border-top-left-radius: 22px; 
-    border-bottom-left-radius: 22px; 
-    border-top-right-radius: 22px;
-    border-bottom-right-radius: 22px;
-    height: 40px;
-}
- */
-
-
- .explore-btn {
+ .explore-all-btn {
     /* background-color: rgba(255, 255, 255, 0.4); */
     background-color: rgb(12 135 197);
     /* background-color: blue; */
-    padding: 6px 70px; 
+    padding: 12px 70px; 
     border-radius: 22px;
-    height: 50px;
+    height: 60px;
     display: inline-block;
     color: white;
     font-size: 24px;
@@ -29,3 +16,54 @@
     height: 200px;
     object-fit: cover;
   }
+
+
+
+
+  /* Small devices (landscape phones, 576px and up) */
+
+  @media (max-width: 575.98px) {
+
+    .explore-all-btn {
+
+      padding: 16px 70px; 
+      border-radius: 22px;
+      height: 80px;
+      display: inline-block;
+     
+      font-size: 22px;
+      font-weight: bold;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .explore-all-btn {
+
+      padding: 16px 70px; 
+      border-radius: 22px;
+      height: 80px;
+      display: inline-block;
+     
+      font-size: 22px;
+      font-weight: bold;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+   
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1400px) {
+ 
+    
+  }
+
+
+

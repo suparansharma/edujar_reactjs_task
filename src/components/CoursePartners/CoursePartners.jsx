@@ -36,15 +36,17 @@ const CoursePartners = () => {
                     <div class="row">
                         <div className="col-md-6 col-lg-7 mb-3">
                             <img
-                                className="d-block w-150 img-fluid"
+                                className="d-block w-150 img-fluid carousel-image"
                                 src={partner.imageUrl}
                                 alt={`Slide ${i + 1}`}
-                                style={{ height: '100px', width: "100px" }}
+                                // style={{ height: '100px', width: "100px" }}
                             // style={{ height: 'auto', maxWidth: '100%' }}
                             />
                         </div>
                         <div className="col-md-6 col-lg-5 d-flex align-items-center">
-                            <p style={{ color: 'white', fontSize: '18px', fontWeight: 'bold', margin: 0 }}>
+                            <p className='carousel-text'
+                            //  style={{ color: 'white', fontSize: '18px', fontWeight: 'bold', margin: 0 }}
+                             >
                                 {partner.name}
                             </p>
                         </div>
@@ -61,7 +63,7 @@ const CoursePartners = () => {
     };
 
     return (
-        <Container>
+        <Container className="carousel-container">
             <div className="form-group">
                 <fieldset className="the-fieldset">
                     <legend style={{ color: 'white' }} className="the-legend">
