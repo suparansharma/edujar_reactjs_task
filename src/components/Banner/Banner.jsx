@@ -4,7 +4,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import boy from '../../images/boy.png';
 import banner from '../../images/banner.png';
 import './Banner.css';
 import 'font-awesome/css/font-awesome.min.css';
