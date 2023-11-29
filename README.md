@@ -1,4 +1,4 @@
-# Live Site [https://suparansharma.github.io/Air_Ticket_Using_Html_Css_JavaScript/](https://sprightly-creponne-6e77fa.netlify.app/)
+# Live Site [edujar_reactjs_task](https://sprightly-creponne-6e77fa.netlify.app/)
 
 ## Features
 
