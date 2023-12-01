@@ -48,6 +48,7 @@ const Testimonials = () => {
 
   return (
     <div className="container mt-5">
+      <h1 className="text-center testimonials ">Testimonials</h1>
       <div className="row">
         <div className="col-md-7 position-relative">
           <div className="card big-card">
@@ -145,7 +146,7 @@ const Testimonials = () => {
                 <img src={photo1} alt="" />
               </div>
               <div className="col-6 col-md-4 position-relative">
-                <img className='position-absolute bottom-0'  src={photo2} alt="" />
+                <img className='position-absolute bottom-0' src={photo2} alt="" />
               </div>
             </div>
 
@@ -153,11 +154,11 @@ const Testimonials = () => {
             <div className="row ">
               <div className="col-6 col-md-4 position-relative">
                 <div className='position-absolute bottom-0'>
-                  <img className='sm:height-full right-0 bottom-0'  src={photo3} alt="" />
+                  <img className='sm:height-full right-0 bottom-0' src={photo3} alt="" />
                 </div>
               </div>
               <div className="col-6 col-md-8">
-                <img  src={photo4} alt="" />
+                <img src={photo4} alt="" />
               </div>
             </div>
 
@@ -165,7 +166,7 @@ const Testimonials = () => {
             <div className="row " >
               <div className="col-12 col-md-8 position-relative">
                 <div className='position-absolute end-0'>
-                  <img  src={photo5} alt="" />
+                  <img src={photo5} alt="" />
                 </div>
               </div>
               <div className='col-md-4'>
@@ -175,6 +176,22 @@ const Testimonials = () => {
           </div>
 
 
+        </div>
+      </div>
+
+      <div className="row testi-text-area">
+        <div className="col">
+          <h1 className='testi-big'>
+            Join our <span className='testi-big-span' >world's largest</span> learning platform today
+          </h1>
+          <p className='testi-small'>
+            Start learning by registering and get 30 days free trail
+          </p>
+        </div>
+        <div className="col testi-btn-area ">
+
+          <p className='instructor-btn'>Explore all Courses</p> <br />
+          <p className='student-btn'>Explore all Courses</p>
         </div>
       </div>
     </div>

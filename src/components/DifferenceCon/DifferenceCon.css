@@ -92,6 +92,10 @@ margin-left: 50px;
 
 
 
+.main-section{
+  margin-top: 90px !important;
+}
+
 
   /* Small devices (landscape phones, 576px and up) */
 
@@ -111,11 +115,19 @@ margin-left: 50px;
     .big-star{
       display: none;
     }
+
+    .main-section{
+      margin-top: 40px !important;
+    }
   }
   
   @media (min-width: 576px) and (max-width: 767.98px) {
     .big-star{
       display: none;
+    }
+
+    .main-section{
+      margin-top: 40px !important;
     }
   }
   
@@ -123,6 +135,10 @@ margin-left: 50px;
   @media (min-width: 768px) and (max-width: 991.98px) {
     .big-star{
       display: none;
+    }
+
+    .main-section{
+      margin-top: 40px !important;
     }
   }
   

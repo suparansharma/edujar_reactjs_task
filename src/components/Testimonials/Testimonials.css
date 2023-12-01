@@ -6,11 +6,133 @@
   
 
 
+ 
+.testimonials {
+  color: white;
+  font-size: 50px; 
+  margin-bottom: 115px;
+  margin-top: 100px;
+
+}
+
+.testi-big{
+  color: white;
+  font-size: 50px; 
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.testi-big-span{
+  color:rgb(12 135 197);
+}
+
+
+.instructor-btn {
+  background-color: rgb(228, 51, 38);
+  padding: 8px 40px; 
+  border-radius: 22px;
+  height: 40px;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+
+.student-btn {
+  background-color: rgb(12 135 197);
+  padding: 8px 40px; 
+  border-radius: 22px;
+  height: 40px;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  /* margin-top: 10px; */
+}
+
+
+.testi-text-area{
+  margin-left: 80px !important;
+}
+
+.testi-btn-area{
+  margin-left: 100px !important;
+}
+
+
+.testi-small{
+  color: white;
+  /* font-size: 50px;  */
+ 
+}
+
   @media (max-width: 575.98px) {
     .testers{
       margin-top: 40px !important;
       margin-bottom: 40px !important;
      }
+
+     .testimonials {
+      color: white;
+      font-size: 40px; 
+      margin-bottom: 80px;
+      margin-top: 80px;
+    }
+
+
+    .testi-big{
+      color: white;
+      font-size: 30px; 
+      margin-bottom: 50px;
+      margin-top: 60px;
+    }
+
+    .testi-text-area{
+      margin-left: 20px !important;
+    }
+    
+    .testi-btn-area{
+      margin-left:53px !important;
+    }
+
+
+
+    .instructor-btn {
+      background-color: rgb(228, 51, 38);
+      padding: 8px 40px; 
+      border-radius: 22px;
+      height: 50px;
+      display: inline-block;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      margin-top: 60px;
+    }
+    
+    
+    .student-btn {
+      background-color: rgb(12 135 197);
+      padding: 8px 40px; 
+      border-radius: 22px;
+      height: 50px;
+      display: inline-block;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      /* margin-top: 10px; */
+    }
+
+    .testi-small{
+      color: white;
+      font-size: 15px; 
+     
+    }
   }
   
   @media (min-width: 576px) and (max-width: 767.98px) {
@@ -18,6 +140,12 @@
     margin-top: 40px !important;
     margin-bottom: 40px !important;
    }
+   .testimonials {
+    color: white;
+    font-size: 40px; 
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
   }
   
   /* Medium devices (tablets, 768px and up) */
@@ -26,6 +154,71 @@
       margin-top: 40px !important;
       margin-bottom: 40px !important;
      }
+
+     .testimonials {
+      color: white;
+      font-size: 40px; 
+      margin-bottom: 80px;
+      margin-top: 80px;
+    }
+
+    .testimonials {
+      color: white;
+      font-size: 40px; 
+      margin-bottom: 80px;
+      margin-top: 80px;
+    }
+
+
+    .testi-big{
+      color: white;
+      font-size: 30px; 
+      margin-bottom: 50px;
+      margin-top: 60px;
+    }
+
+    .testi-text-area{
+      margin-left: 20px !important;
+    }
+    
+    .testi-btn-area{
+      margin-left:53px !important;
+    }
+
+
+
+    .instructor-btn {
+      background-color: rgb(228, 51, 38);
+      padding: 8px 40px; 
+      border-radius: 22px;
+      height: 50px;
+      display: inline-block;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      margin-top: 60px;
+    }
+    
+    
+    .student-btn {
+      background-color: rgb(12 135 197);
+      padding: 8px 40px; 
+      border-radius: 22px;
+      height: 50px;
+      display: inline-block;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      /* margin-top: 10px; */
+    }
+
+    .testi-small{
+      color: white;
+      font-size: 15px; 
+     
+    }
   }
   
   /* Large devices (desktops, 992px and up) */

@@ -14,7 +14,7 @@ const DifferenceCon = () => {
 
   return (
     <div className='container'>
-      <div className="row mt-5">
+      <div className="row main-section ">
         <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <h3 className="question">
             What is our <br />

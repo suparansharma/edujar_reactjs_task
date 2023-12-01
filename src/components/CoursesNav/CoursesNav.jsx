@@ -5,8 +5,8 @@ import './CoursesNav.css';
 const CoursesNav = () => {
     return (
         <Container>
-            <div className="row coursesnav mb-4">
-                <div className="col-md-4">
+            <div className="row coursesnav ">
+                <div className="col-md-4 popular-headline">
                     <h2 className='nav-headline'> <span>Popular</span> Courses</h2>
                 </div>
                 <div className="col-md-8">
