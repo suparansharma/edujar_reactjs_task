@@ -24,7 +24,7 @@ const Card = ({ data }) => {
         <img className="card-img-top imageStyle" src={imageUrl} alt="" />
 
 
-        <div className="card-body">
+        <div className="card-body cardBody">
           <div className="row">
             <div className="col d-flex align-items-center">
               <i className="fa fa-play-circle play-icon" style={{ fontSize: '2rem', color: 'red' }} />
@@ -44,7 +44,7 @@ const Card = ({ data }) => {
             className="d-block border-top"
             style={{ borderColor: 'rgba(255, 255, 255, 0.5)', marginTop: '10px', marginBottom: '10px' }}
           ></span>
-          <div className="row ">
+          <div className="row img-bar  ">
             <div className="col-8">
               <div className="row">
                 <div className="col-4 m-0">
@@ -73,7 +73,7 @@ const Card = ({ data }) => {
             className="d-block border-top"
             style={{ borderColor: 'rgba(255, 255, 255, 0.5)', marginTop: '10px', marginBottom: '10px' }}
           ></span>
-          <div className="row">
+          <div className="row rating-area">
             <div className="col-8">{renderStars()}</div>
             <div className="col-4">
               <p style={{ fontSize: '18px', textDecoration: 'underline' }}>Enroll Now</p>

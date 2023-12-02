@@ -100,6 +100,15 @@
   .contact {
     margin-top: 20px;
   }
+  .circle {
+  
+    background-color: rgba(45, 45, 167, 0);
+    
+  }
+
+  .icons{
+    margin-top: 38px !important;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -114,6 +123,16 @@
 
   .contact {
     margin-top: 20px;
+  }
+
+  .circle {
+  
+    background-color: rgba(45, 45, 167, 0);
+    
+  }
+
+  .icons{
+    margin-top: 38px !important;
   }
 }
 

@@ -90,7 +90,7 @@ const Footer = () => {
                 <small className="text-white-50 footer-text">© 2023. All Rights Reserved.</small>
               </p>
             </div>
-            <div className="col-2 d-flex align-items-center justify-content-end">
+            <div className="col-2 d-flex align-items-center justify-content-end icons">
               <i className="fa circle fa-facebook icon-font ml-2 mr-2" />
               <i className="fa fa-instagram icon-font circle ml-2 mr-2" />
               <i className="fa fa-linkedin icon-font circle ml-2 mr-2" />

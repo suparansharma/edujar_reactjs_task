@@ -1,30 +1,105 @@
 /* Card.css */
 .custom-card-body {
-    background: linear-gradient(to right, #102af2, #2c3ec3e6);
-    color: white !important;
-
+  background: linear-gradient(to right, #102af2, #2c3ec3e6);
+  color: white !important;
+  border-top-left-radius: 22px !important;
+  border-bottom-left-radius: 22px !important;
+  border-top-right-radius: 22px !important;
+  border-bottom-right-radius: 22px !important;
 }
 
-
-
 .custom-title {
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 7px 0px; /* Adjust the padding as needed */
-    
-    border-top-left-radius: 22px; 
-    border-bottom-left-radius: 22px; 
-    border-top-right-radius: 22px;
-    border-bottom-right-radius: 22px;
-    height: 40px;
-  }
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 3px 4px;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  height: 30px;
+}
 
+.description {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px !important;
+  margin-bottom: 25px !important;
+}
 
+.custom_col_7 {
+  padding: 0px !important;
+  border-right: 1px solid;
+}
+
+.img-bar {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.rating-area {
+  margin-top: 15px !important;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
   .description {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
   }
 
-  .custom_col_7{
-    padding: 0px !important;
-    border-right: 1px solid;
+  .img-bar {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
   }
+
+  .rating-area {
+    margin-top: 10px !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .description {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .img-bar {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .rating-area {
+    margin-top: 10px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .description {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .img-bar {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .rating-area {
+    margin-top: 12px !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
