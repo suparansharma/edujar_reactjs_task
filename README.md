@@ -6,10 +6,10 @@
 
 
 ## Technology Used:
+- REACTJS
 - HTML
 - CSS
 - BOOTSTRAP
-- REACT-BOOTSTRAP
 - JAVASCRIPT
 - fontawesome
 
